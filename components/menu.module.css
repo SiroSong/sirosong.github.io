@@ -1,0 +1,4 @@
+.menu_group_area {
+  display: flex;
+  flex-direction: column;
+}
