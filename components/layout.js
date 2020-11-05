@@ -28,7 +28,7 @@ export default function Layout({ children }) {
         <Hidden mdUp>
           <MenuMin />
         </Hidden>
-        <Grid item xs="auto">
+        <Grid item xs="auto" className={styles.main}>
           {children}
         </Grid>
       </Grid>
